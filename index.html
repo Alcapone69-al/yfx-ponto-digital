@@ -307,6 +307,10 @@ select.inp{appearance:auto}
 .stc .chip{align-self:flex-start}
 .btn{flex-direction:row;white-space:nowrap}
 .btn-row .btn{min-width:0}
+@media (max-width:639px){
+  .btn-row{flex-direction:column}
+  .btn-row .btn{width:100%;white-space:normal;line-height:1.25;text-align:center;min-height:48px;height:auto;padding-block:11px}
+}
 .boot{min-height:70vh;display:grid;place-items:center;color:var(--muted)}
 .boot .sk{width:220px;height:14px}
 </style>
